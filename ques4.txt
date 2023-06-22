@@ -1,0 +1,20 @@
+Q4: WAP to display a Multiplication table of a number enter from keyboard.
+
+---CODE---
+
+
+namespace LAB_3
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter a digit");
+            int digit = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Table of {0}", digit);
+            for(int i = 1; i <= 10; i++) {
+                Console.WriteLine(i * digit);
+            }
+        }
+    }
+}

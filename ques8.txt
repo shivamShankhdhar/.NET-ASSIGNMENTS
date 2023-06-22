@@ -1,0 +1,19 @@
+Q8: Display ascii characters from 65 to 90
+
+--CODE--
+
+namespace LAB_3
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            for (int i = 65; i <=90; i++) {
+                Console.WriteLine("ASCII Value= {0} ASCII character {1}",i,(char)i);
+            }
+            
+
+        }
+    }
+}s

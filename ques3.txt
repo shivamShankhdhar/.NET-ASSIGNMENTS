@@ -1,0 +1,20 @@
+Q3: To find the sum of all integers greater than 100 and less than 200.
+
+---CODE---
+
+
+namespace LAB_3
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int sum = 0;
+           for(int i =101; i<200; i++)
+            {
+               sum = sum + i;
+            }
+           Console.WriteLine(sum);
+        }
+    }
+}
